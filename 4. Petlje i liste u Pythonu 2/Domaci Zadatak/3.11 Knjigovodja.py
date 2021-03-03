@@ -9,11 +9,9 @@ broj_transakcija = int(input("Unesite broj transakcija: "))
 
 if broj_transakcija == 0:
     print("Nema evidentiranih transakcija!")
-
-# exit() mi nije radio kao objasnjeno, samo je nastavljao program dalje
-# pa sam ovako postavio resenje kako bi rad programa bio ispravan
+    exit()
 else:
-    while broj_transakcija <= 0:
+    while broj_transakcija < 0:
         print("Neispravan unos! Unesite ponovo.")
         broj_transakcija = int(input("Unesite broj transakcija: "))
 
