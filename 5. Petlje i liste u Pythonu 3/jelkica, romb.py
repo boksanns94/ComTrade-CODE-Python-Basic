@@ -28,3 +28,12 @@ for i in range(n):
 #  ***
 #   *
 
+<<<<<<< HEAD
+for i in range(n):
+    print(i,end="")
+    print(f"{(2*i+1) * '*':^{2*n+1}}")
+for i in range(n-2,-1,-1):
+    print(i,end="")
+    print(f"{(2*i+1) * '*':^{2*n+1}}")
+=======
+>>>>>>> main
