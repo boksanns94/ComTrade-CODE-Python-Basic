@@ -50,16 +50,16 @@ for i in range(redovi):
     print()
 
 if sort_red:
-    print("Elementi jesu sortirani po redovima.")
+    print("Elementi jesu strogo rastuci po redovima.")
 else:
-    print("Elementi nisu sortirani po redovima.")
+    print("Elementi nisu strogo rastuci po redovima.")
 
 if sort_kol:
-    print("Elementi jesu sortirani po redovima.")
+    print("Elementi jesu strogo rastuci po redovima.")
 else:
-    print("Elementi nisu sortirani po kolonama.")
+    print("Elementi nisu strogo rastuci po kolonama.")
 
 if sort_dijag:
-    print("Elementi jesu sortirani po dijagonalama.")
+    print("Elementi jesu strogo rastuci po dijagonalama.")
 else:
-    print("Elementi nisu sortirani po dijagonalama.")
+    print("Elementi nisu strogo rastuci po dijagonalama.")
